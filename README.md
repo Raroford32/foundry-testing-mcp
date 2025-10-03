@@ -1,5 +1,7 @@
 # Smart Contract Testing MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@Raroford32/foundry-testing-mcp)](https://smithery.ai/server/@Raroford32/foundry-testing-mcp)
+
 ## Executive Overview
 
 This repository hosts a Model-Context-Protocol (MCP) server that helps engineering teams automate and improve the testing of Solidity smart contracts built with the [Foundry](https://book.getfoundry.sh/) tool-chain.  
@@ -16,6 +18,14 @@ The codebase is written in Python and relies on standard tooling only; no cloud 
 ---
 
 ## Quick Setup
+
+### Installing via Smithery
+
+To install foundry-testing-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Raroford32/foundry-testing-mcp):
+
+```bash
+npx -y @smithery/cli install @Raroford32/foundry-testing-mcp --client claude
+```
 
 ### 1 Clone the repository
 ```bash
